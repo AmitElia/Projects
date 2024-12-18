@@ -18,12 +18,25 @@ While performing single sequencing analysis on the data, I came across many obst
 - Principal Component Analysis(PCA) and Clustering
 - Cluster Annotation by cell type.
 
+**UMAP representation of cell types in human nasal biopsy (Brann et al. / Ours)**
+
 | Brann et al | myself |
 | ------ | ------ |
-![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/RNA-seq%20Analysis%20of%20COVID-19-Related%20Anosmia/plots/Screenshot%202024-12-17%20180916.png)  |  ![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/RNA-seq%20Analysis%20of%20COVID-19-Related%20Anosmia/plots/Rplot.pdf)
+![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/RNA-seq%20Analysis%20of%20COVID-19-Related%20Anosmia/plots/Screenshot%202024-12-17%20180916.png)  |  ![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/RNA-seq%20Analysis%20of%20COVID-19-Related%20Anosmia/plots/Screenshot%202024-12-17%20182136.png)
+
+The plot shows the cells colored by cell type labels from SingleR. In the plot, labeled cell types like respiratory HBC, olfactory HBC, respiratory ciliated will be a part of the Epithelial cells cluster. We can see a small cluster containing Neurons and neuroepithelial cells, which correspond to the olfactory sensory neurons. The goal is to see whether ACE2 and TMPRSS2 are expressed in these cells.
+
+We can also see many other cell types that are shared with the paper’s plot (B cells, T cells, fibroblasts) and some that are not.
 
 
+**UMAP representations of all cells, depicting the normalized expression of CoV-2 related genes ACE2 and TMPRSS2, as well as several cell type markers (Brann et al. / Ours)**
+| Brann et al | myself |
+| ------ | ------ |
+![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/RNA-seq%20Analysis%20of%20COVID-19-Related%20Anosmia/plots/Screenshot%202024-12-17%20180950.png)  |  ![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/RNA-seq%20Analysis%20of%20COVID-19-Related%20Anosmia/plots/Screenshot%202024-12-17%20182149.png)
 
+Both of the plots show which clusters express the following 6 genes: ACE2, KRT5, CYP2A13, TMPRSS2, FOXJ1, and MUC5AC. These genes were chosen because their expression levels can be used for the determination of major cell types. We can see that cells that express ACE2 and TMPRSS2 are epithelial cells. More importantly, ACE 2 and TMPRSS2 are not expressed in the OSN cluster containing the neuroepithelial cells, which agrees with the paper’s result.
+
+The paper’s claim that ACE2 and TMPRSS2 are not expressed in the olfactory sensory neuron cells is supported by the plots, showing that these genes are expressed almost exclusively in epithelial cells.
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
