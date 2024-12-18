@@ -20,7 +20,7 @@ While performing single sequencing analysis on the data, I came across many obst
 
 | Brann et al | myself |
 | ------ | ------ |
-![](outputs/output_Biotouch/18-15_02-02-2018/Identification/ITALIC/ITALIC_movementPoints_cmc.png)  |  ![](outputs/output_Biotouch/18-15_02-02-2018/Identification/BLOCK_LETTERS/BLOCK_LETTERS_movementPoints_cmc.png)
+![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/RNA-seq%20Analysis%20of%20COVID-19-Related%20Anosmia/plots/Screenshot%202024-12-17%20180916.png)  |  ![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/RNA-seq%20Analysis%20of%20COVID-19-Related%20Anosmia/plots/Rplot.pdf)
 
 
 
