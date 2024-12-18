@@ -11,7 +11,7 @@ The coronavirus encompasses a large class of viruses that are common in humans a
 **Methods**
 The data was obtained from four human nasal tissue samples and was separated by either respiratory (Patients 1 and 4) or olfactory samples (Patients 2 and 3). 10x Genomics sequencing was then performed on each sample. This produced a matrix file, a features file containing the list of genes, and a barcodes file. All three files were used in our pipeline and analysis.
 
-While performing single sequencing analysis on the data, I came across many obstacles with SPRING, the tool used in the paper. So, I switched to using Seurat to perform the same type of analysis on the same dataset. Ultimately, after performing our analysis, I came to the same conclusion as the findings in the paper, which was that ACE2 and TMPRSS2 were not expressed in the olfactory sensory neurons. I also found that ACE2 and TMPRSS2 were primarily expressed in nasal epithelial cells, consistent with the results acquired from the paper.(Fig2)
+While performing single sequencing analysis on the data, I came across many obstacles with SPRING, the tool used in the paper. So, I switched to using Seurat to perform the same type of analysis on the same dataset. Ultimately, after performing the analysis, I came to the same conclusion as the findings in the paper, which was that ACE2 and TMPRSS2 were not expressed in the olfactory sensory neurons. I also found that ACE2 and TMPRSS2 were primarily expressed in nasal epithelial cells, consistent with the results acquired from the paper.(Fig2)
 
 **Steps**
 - Quality Control - Loading the data, Filtering.
