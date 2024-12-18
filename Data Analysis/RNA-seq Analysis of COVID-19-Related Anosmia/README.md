@@ -18,7 +18,7 @@ While performing single sequencing analysis on the data, I came across many obst
 - Principal Component Analysis(PCA) and Clustering
 - Cluster Annotation by cell type.
 
-**UMAP representation of cell types in human nasal biopsy (Brann et al. / Ours)**
+**UMAP representation of cell types in human nasal biopsy (Brann et al. / Myself)**
 
 | Brann et al | myself |
 | ------ | ------ |
@@ -29,7 +29,7 @@ The plot shows the cells colored by cell type labels from SingleR. In the plot, 
 We can also see many other cell types that are shared with the paper’s plot (B cells, T cells, fibroblasts) and some that are not.
 
 
-**UMAP representations of all cells, depicting the normalized expression of CoV-2 related genes ACE2 and TMPRSS2, as well as several cell type markers (Brann et al. / Ours)**
+**UMAP representations of all cells, depicting the normalized expression of CoV-2 related genes ACE2 and TMPRSS2, as well as several cell type markers (Brann et al. / Myself)**
 | Brann et al | myself |
 | ------ | ------ |
 ![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/RNA-seq%20Analysis%20of%20COVID-19-Related%20Anosmia/plots/Screenshot%202024-12-17%20180950.png)  |  ![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/RNA-seq%20Analysis%20of%20COVID-19-Related%20Anosmia/plots/Screenshot%202024-12-17%20182149.png)
