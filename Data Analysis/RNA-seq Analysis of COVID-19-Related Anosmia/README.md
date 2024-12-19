@@ -38,5 +38,7 @@ The paper’s claim that ACE2 and TMPRSS2 are not expressed in the olfactory sen
 
 Final Project for CSE185 by Professor Melissa Gymrek.
 
-[//]: 
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
    [Link1]: <https://pmc.ncbi.nlm.nih.gov/articles/PMC10715684/>
