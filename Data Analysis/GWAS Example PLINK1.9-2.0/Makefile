@@ -17,7 +17,6 @@ QC:
 	plink --bfile ${BFILE} --missing --out out/plink_out
 	cat out/plink_out.imiss | tr -s ' ' '\t' > out/plink_out.imiss.tsv
 	cat out/plink_out.lmiss | tr -s ' ' '\t' > out/plink_out.lmiss.tsv
-	# python ${WD}/scripts/missing_histogram.py 
 
 # calculate allele Frequencies
 #Common variants : MAF>=0.05
@@ -25,7 +24,6 @@ QC:
 #Rare variants : MAF<0.01
 	plink --bfile ${BFILE} --freq --out out/plink_out
 	cat out/plink_out.frq | tr -s ' ' '\t' > out/plink_out.frq.tsv
-	# python ${WD}/scripts/allele_freq_histogram.py
 
 # calculate Hardy-Weinberg Equilibrium (HWE)
 # HWE is a test of whether the observed genotype 
@@ -33,7 +31,7 @@ QC:
 # the frequencies expected under Hardy-Weinberg equilibrium.
 	plink --bfile ${BFILE} --hardy --out out/plink_out
 	cat out/plink_out.hwe | tr -s ' ' '\t' > out/plink_out.hwe.tsv
-	# python ${WD}/scripts/hwe_histogram.py
+	
 
 # Filtering
 # --maf 0.01 : exlcude snps with maf<0.01
@@ -88,6 +86,8 @@ QC:
         --keep-allele-order \
         --make-bed \
         --out out/sample_data.clean
+
+	python ${WD}/scripts/hist_summary.py
 
 extract:
 	plink \
