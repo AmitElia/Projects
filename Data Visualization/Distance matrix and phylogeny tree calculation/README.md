@@ -32,17 +32,17 @@ These queries were chosen because I was interested in seeing how the virus’s m
 
 **plot of the mutation rate by genomic position across the entire COVID reference genome.**
 
-![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/Distance%20matrix%20and%20phylogeny%20tree%20calculation/output/Screenshot%202024-12-19%20152735.png)
+![](https://github.com/AmitElia/Projects/blob/main/Data%20Visualization/Distance%20matrix%20and%20phylogeny%20tree%20calculation/output/Screenshot%202024-12-19%20152735.png)
 From the figure we can identify key positions that are highly variable. Additionally, the spike protein has many positions with small mutation frequencies. I chose to focus the analysis on the spike protein and nsp3, highlighted in the figure above.
 
 **Spike Protein Distance Matrix**
-![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/Distance%20matrix%20and%20phylogeny%20tree%20calculation/output/Screenshot%202024-12-19%20155955.png)
+![](https://github.com/AmitElia/Projects/blob/main/Data%20Visualization/Distance%20matrix%20and%20phylogeny%20tree%20calculation/output/Screenshot%202024-12-19%20155955.png)
 
 **Neighbor-joining (NJ) Phylogeny Graph**
-![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/Distance%20matrix%20and%20phylogeny%20tree%20calculation/output/spike_tree.png)
+![](https://github.com/AmitElia/Projects/blob/main/Data%20Visualization/Distance%20matrix%20and%20phylogeny%20tree%20calculation/output/spike_tree.png)
 
 **Unweighted Pair Group Method with Arithmetic Mean (UPGMA) Phylogeny Graph**
-![](https://github.com/AmitElia/Projects/blob/main/Data%20Analysis/Distance%20matrix%20and%20phylogeny%20tree%20calculation/output/Screenshot%202024-12-19%20160225.png)
+![](https://github.com/AmitElia/Projects/blob/main/Data%20Visualization/Distance%20matrix%20and%20phylogeny%20tree%20calculation/output/Screenshot%202024-12-19%20160225.png)
 
 
 UPGMA assumes that all the queries have the same evolutionary distance from the reference (root) sequence. This is a disadvantage in this case because we examine queries from different times in the pandemic. Therefore UPGMA was used to cluster similar queries together but have the same distance from the root. I used Neighbor-joining to create a time-based phylogeny with the sampling dates of each query as the label of the leaf.
