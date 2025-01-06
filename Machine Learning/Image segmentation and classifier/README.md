@@ -1,2 +1,2 @@
-# Projects
-Accumulation of my previous projects over the years
+# Image Segmentation and classifier
+
