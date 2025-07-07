@@ -32,6 +32,9 @@ train.info()
 train = train.drop(columns=['id'])
 X_test = test.drop(columns=['id'])
 
+cols_with_missing = [col for col in train.columns
+                     if train[col].isnull().any()]
+
 # Change NA numerical values with mean
 numerical = train.select_dtypes(include='number').columns
 for cat in numerical:
