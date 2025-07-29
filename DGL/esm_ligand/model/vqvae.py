@@ -1,0 +1,1 @@
+# a module for structure VQ-VAE encoding/decoding 
