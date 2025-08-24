@@ -2,7 +2,7 @@ from torch.utils.data import Dataset, DataLoader
 import numpy as np
 import torch
 from scipy.spatial.distance import pdist
-from data_pipeline import data_constants
+from data import data_constants
 
 from typing import List, Dict
 
@@ -15,6 +15,7 @@ class Spice2Dataset(Dataset):
         self.key_list = list(self.npz_file.keys())
     
     def __len__(self):
+        
         return len(self.key_list)
 
     def __getitem__(self, index):
