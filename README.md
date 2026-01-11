@@ -1,14 +1,31 @@
 # Projects
-Accumulation of my previous projects over the years
+Portfolio of applied research engineering: bioinformatics workflows, molecular data analysis, and ML pipelines.
 
-**Data Analysis**
+## **Featured**
 
 | Name | Description |
 | ------ | ------ |
-| [RNA-seq Analysis of COVID-19-Related Anosmia] | Single sequencing analysis on SARS CoV-2 |
+| [Metalscry - Searching for metal-binding peptides in embedding space] | Build a curated metal-binding protein dataset and predict metal-binding residues via embedding-based similarity search. <br><br> Python, ESM embeddings, PyTorch, pandas/numpy |
+| [Nipah binder design pipeline — RFDiffusion, ProteinMPNN, Boltz-2] | End-to-end generative binder design workflow with structure generation, sequence design, and co-fold validation. <br><br> RFDiffusion, ProteinMPNN, Boltz-2, Python, CUDA |
+| [Lead-to-Candidate trajectory mining — ChEMBL and ClinicalTrials.gov integration] | Integrate ChEMBL and ClinicalTrials.gov to map development programs and analyze optimization “trajectories” across phases. <br><br> Python, SQL/DuckDB/Postgres, RDKit, APIs |
+| [RNA-seq Analysis of COVID-19-Related Anosmia] | Single-cell RNA-seq analysis focused on SARS-CoV-2–associated anosmia, including cell-type annotation and differential expression outputs. |
+| [Variant calling automation] | End-to-end NGS workflow: dataset retrieval, QC, alignment, and variant calling (VCF) with reproducible scripts and summary outputs. |
+
+## **Supporting projects**
+
+**Data Engineering & Pipelines**
+
+| Name | Description |
+| ------ | ------ |
 | [GWAS Example PLINK1.9-2.0] | Example and wrapper functions |
 | [Hardy-Weinberg equilibrium Calculator] | Calculate the HWE exact test statistics for a single SNP |
-| [Variant calling automation] | Automation of dataset access, quality control, alignment, vcf calculation |
+| [ClinicalTrials.gov program linker] | Calculate the HWE exact test statistics for a single SNP |
+| [SMILES from figure/text extraction pipeline] | Calculate the HWE exact test statistics for a single SNP |
+
+**Machine Learning**
+| Name | Description |
+| ------ | ------ |
+| [UniMol architecture and dataset loader + augmentation] | Example and wrapper functions |
 
 **Data Visualization**
 
