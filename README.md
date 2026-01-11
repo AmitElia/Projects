@@ -6,8 +6,8 @@ Portfolio of applied research engineering: bioinformatics workflows, molecular d
 | Name | Description |
 | ------ | ------ |
 | [Metalscry - Searching for metal-binding peptides in embedding space] | Build a curated metal-binding protein dataset and predict metal-binding residues via embedding-based similarity search. <br><br> Python, ESM embeddings, PyTorch, pandas/numpy |
-| [Nipah binder design pipeline — RFDiffusion, ProteinMPNN, Boltz-2] | End-to-end generative binder design workflow with structure generation, sequence design, and co-fold validation. <br><br> RFDiffusion, ProteinMPNN, Boltz-2, Python, CUDA |
-| [Lead-to-Candidate trajectory mining — ChEMBL and ClinicalTrials.gov integration] | Integrate ChEMBL and ClinicalTrials.gov to map development programs and analyze optimization “trajectories” across phases. <br><br> Python, SQL/DuckDB/Postgres, RDKit, APIs |
+| [Nipah binder design pipeline - RFDiffusion, ProteinMPNN, Boltz-2] | End-to-end generative binder design workflow with structure generation, sequence design, and co-fold validation. <br><br> RFDiffusion, ProteinMPNN, Boltz-2, Python, CUDA |
+| [Lead-to-Candidate trajectory mining - ChEMBL and ClinicalTrials.gov integration] | Integrate ChEMBL and ClinicalTrials.gov to map development programs and analyze optimization “trajectories” across phases. <br><br> Python, SQL/DuckDB/Postgres, RDKit, APIs |
 | [RNA-seq Analysis of COVID-19-Related Anosmia] | Single-cell RNA-seq analysis focused on SARS-CoV-2–associated anosmia, including cell-type annotation and differential expression outputs. |
 | [Variant calling automation] | End-to-end NGS workflow: dataset retrieval, QC, alignment, and variant calling (VCF) with reproducible scripts and summary outputs. |
 
