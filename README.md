@@ -17,22 +17,22 @@ Portfolio of applied research engineering: bioinformatics workflows, molecular d
 
 | Name | Description |
 | ------ | ------ |
-| [GWAS Example PLINK1.9-2.0] | Example and wrapper functions |
-| [Hardy-Weinberg equilibrium Calculator] | Calculate the HWE exact test statistics for a single SNP |
-| [ClinicalTrials.gov program linker] | Calculate the HWE exact test statistics for a single SNP |
-| [SMILES from figure/text extraction pipeline] | Calculate the HWE exact test statistics for a single SNP |
+| [GWAS Example PLINK1.9-2.0] | Reproducible GWAS starter workflow with PLINK commands plus wrapper utilities for QC, association runs, and results parsing. |
+| [Hardy-Weinberg equilibrium Calculator] | Computes Hardy–Weinberg equilibrium exact test statistics (and p-values) for a single SNP from genotype counts. |
+| [ClinicalTrials.gov program linker] | API pipeline that normalizes drug identifiers (names/synonyms) and links compounds to ClinicalTrials.gov studies for program-level analysis. |
 
 **Machine Learning**
 | Name | Description |
 | ------ | ------ |
-| [UniMol architecture and dataset loader + augmentation] | Example and wrapper functions |
+| [UniMol architecture and dataset loader + augmentation] | Implements/organizes UniMol-style 3D molecular inputs with a dataset loader, point-cloud augmentations, and training-ready batching utilities. |
+| [SMILES from figure/text extraction pipeline] | Extracts chemical structures from papers by pulling SMILES/IUPAC from text and converting figure-based structures into SMILES for downstream analysis. |
 
 **Data Visualization**
 
 | Name | Description |
 | ------ | ------ |
-| [Distance matrix and phylogeny tree calculation] | Visualizing COVID variants from Illinois between 2020-2022 |
-| [PCA Visualization from BAM file] | Example and wrapper functions |
+| [Distance matrix and phylogeny tree calculation] | Computes sequence distance matrices and builds phylogenetic trees to visualize SARS-CoV-2 variant relationships across time. |
+| [PCA Visualization from BAM file] | Runs PCA on aligned sequencing data and generates standard QC visualizations for sample clustering and batch/outlier detection. |
 
 
 [//]: #
