@@ -1,2 +1,2 @@
-# Projects
-Accumulation of my previous projects over the years
+# nipah_binder_comp
+Nipah Binder competition repository - AICD3
